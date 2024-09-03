@@ -15,3 +15,5 @@ Module.symvers
 *.elf
 .vscode*
 sunxi-autogen.h
+.built-in.a.cmd
+built-in.a
