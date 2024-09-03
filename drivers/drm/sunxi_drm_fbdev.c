@@ -157,7 +157,7 @@ static int sunxi_drm_fbdev_create(struct drm_fb_helper *fb_helper,
 	struct drm_framebuffer *fb;
 	struct fb_info *fbi;
 	u32 format;
-#if LINUX_VERSION_CODE > KERNEL_VERSION(5, 15, 0)
+#if LINUX_VERSION_CODE >= KERNEL_VERSION(5, 15, 0)
 	struct dma_buf_map map;
 	int ret;
 #else
