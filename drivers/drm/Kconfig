@@ -132,6 +132,6 @@ config AW_DRM_INNO_EDP13
 	help
 		If you want inno edp 1.3 as edp phy, select it.
 
-source "$(BSP_TOP)drivers/drm/panel/Kconfig"
+source "bsp/drivers/drm/panel/Kconfig"
 
 endmenu
