@@ -14,6 +14,5 @@ Module.symvers
 *.ko.cmd
 *.elf
 .vscode*
-sunxi-autogen.h
 .built-in.a.cmd
 built-in.a
