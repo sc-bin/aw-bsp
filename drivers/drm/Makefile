@@ -4,6 +4,7 @@ ccflags-y += -I$(srctree)/$(obj)/sunxi_device/hardware/lowlevel_lcd/
 ccflags-y += -I$(srctree)/$(obj)/sunxi_device/hardware/lowlevel_tcon/
 ccflags-y += -I$(srctree)/$(obj)/phy/
 ccflags-y += -I$(srctree)/$(obj)/lib/inc/
+ccflags-y += -I$(mkfile_dir)/
 
 # base
 sunxidrm-y += sunxi_drm_drv.o sunxi_drm_crtc.o sunxi_drm_intf.o

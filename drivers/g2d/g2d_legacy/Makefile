@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0
-
+ccflags-y += -I $(srctree)/bsp/drivers/g2d
 my_dir = g2d_legacy
 legacy_obj = ${my_dir}/g2d_driver.o
 
