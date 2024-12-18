@@ -669,7 +669,7 @@ static int sunxi_irrx_probe(struct platform_device *pdev)
 	struct device *dev = &pdev->dev;
 	struct rc_dev *rcdev;
 	int ret;
-	static char const ir_rx_dev_name[] = "s_cir_rx";
+	// static char const ir_rx_dev_name[] = "s_cir_rx";
 	struct sunxi_ir_rx *chip;
 
 	dev_dbg(dev, "sunxi-ir probe start !\n");
@@ -712,7 +712,7 @@ static int sunxi_irrx_probe(struct platform_device *pdev)
 	rcdev->input_id.vendor = SUNXI_IRRX_VENDOR;
 	rcdev->input_id.product = SUNXI_IRRX_PRODUCT;
 	rcdev->input_id.version = SUNXI_IRRX_VERSION;
-	rcdev->input_dev->dev.init_name = &ir_rx_dev_name[0];
+	// rcdev->input_dev->dev.init_name = &ir_rx_dev_name[0];
 
 	rcdev->dev.parent = &pdev->dev;
 	rcdev->driver_type = RC_DRIVER_IR_RAW;
